@@ -1,0 +1,57 @@
+.container_details {
+    position: relative;
+
+    width: 18rem;
+    padding: 24px;
+    margin-left: 30px;
+    overflow: hidden;
+
+    color: #313d51;
+    background-color: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
+
+.details-name {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.details-item {
+    display: block;
+    padding: 10px 24px;
+    margin-right: -24px;
+    margin-left: -24px;
+}
+
+.details-item {
+    border-top: 1px solid #dfdfdf;
+}
+
+.container_details-img {
+    height: 285px;
+    margin: -24px -24px 20px -24px;
+
+    background-image: url('../../assets/wait.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.details-img {
+    position: relative;
+    top: 50%;
+
+    display: block;
+    width: 100%;
+    max-height: 300px;
+
+    text-align: center;
+
+    color: #ffffff;
+
+    transform: translateY(-50%);
+}
