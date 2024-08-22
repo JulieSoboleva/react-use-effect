@@ -41,7 +41,7 @@ export default function App() {
   const getUserIdHandler = (id: number) => {
     setList((prevState) => {
       const newState = prevState.map((item: IListItem) => {
-        item.id === id ? (item.active = true) : (item.active = false);
+        item.active = item.id === id;
         return item;
       });
       return newState;

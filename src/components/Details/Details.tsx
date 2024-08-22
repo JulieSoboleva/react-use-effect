@@ -7,7 +7,7 @@ interface IUser {
 
 export default function Details({ userInfo }: IUser) {
     if (!userInfo) {
-        return <></>;
+        return null;
     }
     const { id, name, avatar, details } = userInfo;
     const { city, company, position } = details;
